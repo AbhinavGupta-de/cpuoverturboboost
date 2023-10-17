@@ -1,2 +1,3 @@
-# cpuoverturboboost
-Stopping cpu from using turbo boosting and thus solving the heating issue
+# Cpu Turbo Boost Turning Off
+
+I installed Manjaro Linux last month and noticed that my laptop was starting to heat a lot and while digging a bit deeper into the problem I found that my cpu was using turbo boost. It has a base speed of 1.8 Ghz and 4.4 using tubo boost. So, I knew that whenever turbo boost is on, the cpu generates a lot of heat and I wasn't really using my laptop for much powerful operations right now so I decided to turn off the turbo boost. However, I have to do that manually everytime I restarted manjaro and that consumed a lot of time and I also used to forget that a lot times and only when the laptop started to heated I used to notice it. That's why I made that a system service so that it get's started everytime I restart or open manjaro.
